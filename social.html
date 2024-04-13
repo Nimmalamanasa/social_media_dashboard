@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header class="dashboard-header">
+        <h1>Social Media Analytics Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <section class="dashboard-section">
+            <h2>Overview</h2>
+            <div class="stats">
+                <div class="chart-container">
+                    <h3>Followers</h3>
+                    <canvas id="followersChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Likes</h3>
+                    <canvas id="likesChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Retweets</h3>
+                    <canvas id="retweetsChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Impressions</h3>
+                    <canvas id="impressionsChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Additional Data</h2>
+            <div class="additional-data">
+                <div class="chart-container">
+                    <h3>Data Set 1</h3>
+                    <canvas id="dataSet1Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 2</h3>
+                    <canvas id="dataSet2Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 3</h3>
+                    <canvas id="dataSet3Chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Data Set 4</h3>
+                    <canvas id="dataSet4Chart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Tables</h2>
+            <div class="tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Followers</th>
+                            <th>Likes</th>
+                            <th>Retweets</th>
+                            <th>Impressions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>2500</td>
+                            <td>1200</td>
+                            <td>800</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>2600</td>
+                            <td>1300</td>
+                            <td>850</td>
+                            <td>5200</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Followers</th>
+                            <th>Likes</th>
+                            <th>Retweets</th>
+                            <th>Impressions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>25000</td>
+                            <td>12000</td>
+                            <td>8000</td>
+                            <td>50000</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>26000</td>
+                            <td>13000</td>
+                            <td>8500</td>
+                            <td>52000</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
